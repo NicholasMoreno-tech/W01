@@ -11,7 +11,7 @@ def sqrt_exhaustive(x):
     for guess in range(x):
         if guess**2 == x:
             return guess
-
+    
     return None
     #while guess**2 < x:
      #   guess = guess + 1
@@ -26,7 +26,7 @@ user_number = int(input("Enter a positive integer: "))
 guess = sqrt_exhaustive(user_number)
 
 # Need to check if search was successful
-if guess**2 == user_number:
+if guess**2 != None:
     print("Square root of {} is {}".format(user_number, guess))
 else:
     print("No square root found for {}".format(user_number))

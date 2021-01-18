@@ -8,9 +8,7 @@ def sqrt_exhaustive(x:float, epsilon:float=0.01):
 
         return guess(int): square root or none
     """
-
     guess=0
-
 
     step = epsilon*epsilon
     

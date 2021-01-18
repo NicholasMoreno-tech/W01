@@ -1,3 +1,4 @@
+#Author: Nicholas Moreno
 # We need an integer, converting string input
 def sqrt_exhaustive(x):
     """ Search for perfect squre of x 

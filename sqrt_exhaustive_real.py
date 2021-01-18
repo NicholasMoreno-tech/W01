@@ -1,6 +1,5 @@
 #Author: Nicholas Moreno
 # We need an Real Number, converting string input
-#Author: Nicholas Moreno
 def sqrt_exhaustive(x:float, epsilon:float=0.01):
     """ Search for perfect squre of x 
 

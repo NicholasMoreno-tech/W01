@@ -11,6 +11,7 @@ def sqrt_exhaustive(x:float, epsilon:float=0.01):
 
     guess=0
 
+
     step = epsilon*epsilon
     
     while abs(guess**2 - x) > epsilon:

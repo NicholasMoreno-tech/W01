@@ -13,6 +13,7 @@ def sqrt_exhaustive(x):
         if guess**2 == x:
             return guess
     
+    
     return None
     #while guess**2 < x:
      #   guess = guess + 1
